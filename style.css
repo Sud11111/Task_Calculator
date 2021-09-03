@@ -1,11 +1,41 @@
 .container{
   margin: auto;
-  padding: 0;
-  color: DodgerBlue;
+  width: 20%;
+  padding: 10%;
+  color: dodgerblue;
+  font-size: 1.2em;
 
 }
 td{
-  padding: 5%;
-  padding-left: 10%;
+  padding: 0.5em;
   text-align: center;
+}
+.buttons{
+  width: 100%;
+}
+.material-icons{
+  font-size: 1.2em;
+  color: black;
+}
+.digit{color: black}
+table{
+  background-color: #EBF7F7;
+  align-items: center;
+  width: 100%;
+}
+button{
+  border: none;
+  width: 100%;
+  background-color: inherit;
+  color: dodgerblue;
+  font-size: 1em;
+  font-weight: 10;
+  font-family: sans-serif;
+}
+button:hover{
+  background-color: #EAFCFC;
+}
+.display{
+  background: white;
+  width: 100%;
 }
